@@ -1,0 +1,19 @@
+{
+    "name": "@js-monorepo/useful-all",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "tsc -p tsconfig.json"
+      },
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "dependencies": {
+        "@js-monorepo/useful": "*",
+        "@js-monorepo/useful-too": "*"
+    },
+    "files": [
+      "dist"
+    ]
+}
+  
